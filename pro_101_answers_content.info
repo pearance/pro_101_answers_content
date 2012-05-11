@@ -8,6 +8,7 @@ project = pro_101_answers_content
 dependencies[] = defaultcontent
 dependencies[] = features
 dependencies[] = menu
+dependencies[] = pro_101_answers_features
 features[content][] = question1
 features[content][] = question2
 features[content][] = question3
