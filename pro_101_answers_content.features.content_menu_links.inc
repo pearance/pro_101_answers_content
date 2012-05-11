@@ -26,7 +26,7 @@ function pro_101_answers_content_content_menu_links_defaults() {
     'external' => '0',
     'has_children' => '0',
     'expanded' => '0',
-    'weight' => '5',
+    'weight' => '0',
   );
   // Translatables
   // Included for use with string extractors like potx.
