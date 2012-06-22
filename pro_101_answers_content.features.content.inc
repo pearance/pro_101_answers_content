@@ -11,7 +11,7 @@ function pro_101_answers_content_content_defaults() {
   $content = array();
 
   $content['question1'] = (object) array(
-    'exported_path' => 'faq-page/question-1',
+    'exported_path' => 'answers/question-1',
     'title' => 'Question 1?',
     'status' => '1',
     'promote' => '0',
@@ -42,7 +42,7 @@ function pro_101_answers_content_content_defaults() {
   );
 
   $content['question2'] = (object) array(
-    'exported_path' => 'faq-page/question-2',
+    'exported_path' => 'answers/question-2',
     'title' => 'Question 2?',
     'status' => '1',
     'promote' => '0',
@@ -73,7 +73,7 @@ function pro_101_answers_content_content_defaults() {
   );
 
   $content['question3'] = (object) array(
-    'exported_path' => 'faq-page/question-3',
+    'exported_path' => 'answers/question-3',
     'title' => 'Question 3?',
     'status' => '1',
     'promote' => '0',
