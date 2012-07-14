@@ -63,9 +63,9 @@ function pro_101_answers_content_context_default_contexts() {
   $context->reactions = array(
     'block' => array(
       'blocks' => array(
-        'nodeblock-23' => array(
+        'nodeblock-social_welcome' => array(
           'module' => 'nodeblock',
-          'delta' => '23',
+          'delta' => 'social_welcome',
           'region' => 'content',
           'weight' => '-10',
         ),
