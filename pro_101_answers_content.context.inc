@@ -33,7 +33,18 @@ function pro_101_answers_content_context_default_contexts() {
       ),
     ),
   );
-  $context->reactions = array();
+  $context->reactions = array(
+    'block' => array(
+      'blocks' => array(
+        'delta_blocks-tabs' => array(
+          'module' => 'delta_blocks',
+          'delta' => 'tabs',
+          'region' => 'content',
+          'weight' => '-10',
+        ),
+      ),
+    ),
+  );
   $context->condition_mode = 0;
 
   // Translatables

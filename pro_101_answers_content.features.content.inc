@@ -11,7 +11,6 @@ function pro_101_answers_content_content_defaults() {
   $content = array();
 
   $content['question1'] = (object) array(
-    'exported_path' => 'answers/question-1',
     'title' => 'Question 1?',
     'status' => '1',
     'promote' => '0',
@@ -26,18 +25,28 @@ function pro_101_answers_content_content_defaults() {
       'und' => array(
         0 => array(
           'value' => '<h2>
-	Heading</h2>
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+	Heading
+</h2>
+
+<p>
+	Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+</p>
 ',
           'summary' => '',
           'format' => 'plain_text',
         ),
       ),
     ),
+    'field_question_category' => array(
+      'und' => array(
+        0 => array(
+          'tid' => '7',
+        ),
+      ),
+    ),
   );
 
   $content['question2'] = (object) array(
-    'exported_path' => 'answers/question-2',
     'title' => 'Question 2?',
     'status' => '1',
     'promote' => '0',
@@ -52,18 +61,28 @@ function pro_101_answers_content_content_defaults() {
       'und' => array(
         0 => array(
           'value' => '<h2>
-	Heading</h2>
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+	Heading
+</h2>
+
+<p>
+	Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+</p>
 ',
           'summary' => '',
           'format' => 'plain_text',
         ),
       ),
     ),
+    'field_question_category' => array(
+      'und' => array(
+        0 => array(
+          'tid' => '8',
+        ),
+      ),
+    ),
   );
 
   $content['question3'] = (object) array(
-    'exported_path' => 'answers/question-3',
     'title' => 'Question 3?',
     'status' => '1',
     'promote' => '0',
@@ -78,11 +97,22 @@ function pro_101_answers_content_content_defaults() {
       'und' => array(
         0 => array(
           'value' => '<h2>
-	Heading</h2>
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+	Heading
+</h2>
+
+<p>
+	Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+</p>
 ',
           'summary' => '',
           'format' => 'plain_text',
+        ),
+      ),
+    ),
+    'field_question_category' => array(
+      'und' => array(
+        0 => array(
+          'tid' => '8',
         ),
       ),
     ),
