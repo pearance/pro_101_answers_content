@@ -36,11 +36,17 @@ function pro_101_answers_content_context_default_contexts() {
   $context->reactions = array(
     'block' => array(
       'blocks' => array(
+        'nodeblock-answers-mast' => array(
+          'module' => 'nodeblock',
+          'delta' => 'answers-mast',
+          'region' => 'content',
+          'weight' => '-10',
+        ),
         'delta_blocks-tabs' => array(
           'module' => 'delta_blocks',
           'delta' => 'tabs',
           'region' => 'content',
-          'weight' => '-10',
+          'weight' => '-9',
         ),
       ),
     ),
