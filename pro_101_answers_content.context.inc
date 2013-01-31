@@ -15,7 +15,7 @@ function pro_101_answers_content_context_default_contexts() {
   $context->api_version = 3;
   $context->name = 'answers';
   $context->description = '';
-  $context->tag = 'Section';
+  $context->tag = 'Pages';
   $context->conditions = array(
     'path' => array(
       'values' => array(
@@ -55,7 +55,7 @@ function pro_101_answers_content_context_default_contexts() {
 
   // Translatables
   // Included for use with string extractors like potx.
-  t('Section');
+  t('Pages');
   $export['answers'] = $context;
 
   $context = new stdClass();
