@@ -11,8 +11,8 @@ function pro_101_answers_content_content_defaults() {
   $content = array();
 
   $content['answers-mast'] = (object) array(
-    'exported_path' => 'block/answers-mast',
-    'title' => 'Answers Mast',
+    'exported_path' => 'block/answers-masthead',
+    'title' => 'Answers Masthead',
     'status' => '1',
     'promote' => '0',
     'sticky' => '0',

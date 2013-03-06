@@ -20,7 +20,7 @@ function pro_101_answers_content_context_default_contexts() {
     'path' => array(
       'values' => array(
         'answers' => 'answers',
-        'answers/*' => 'answers/*',
+        'answers/order' => 'answers/order',
       ),
     ),
     'views' => array(
