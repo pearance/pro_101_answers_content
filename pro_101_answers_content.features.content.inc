@@ -44,6 +44,40 @@ function pro_101_answers_content_content_defaults() {
     ),
   );
 
+  $content['answers-masthead'] = (object) array(
+    'exported_path' => 'block/answers-masthead',
+    'title' => 'Answers Masthead',
+    'status' => '1',
+    'promote' => '0',
+    'sticky' => '0',
+    'type' => 'block',
+    'language' => 'und',
+    'created' => '1358757761',
+    'comment' => '0',
+    'translate' => '0',
+    'machine_name' => 'answers-mast',
+    'body' => array(
+      'und' => array(
+        0 => array(
+          'value' => '<div id="pre-description">
+	&nbsp;
+</div>
+
+<p>
+	This is a list of common questions for your convenience. If you have a question that is not in this list, please ask via our <a href="contact">contact form</a>.
+</p>
+
+<div id="post-description">
+	&nbsp;
+</div>
+',
+          'summary' => '',
+          'format' => 'plain_text',
+        ),
+      ),
+    ),
+  );
+
   $content['question1'] = (object) array(
     'title' => 'Question 1?',
     'status' => '1',

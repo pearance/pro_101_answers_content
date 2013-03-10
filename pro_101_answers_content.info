@@ -13,6 +13,7 @@ dependencies[] = menu
 dependencies[] = nodeblock
 dependencies[] = pro_101_social_content
 features[content][] = answers-mast
+features[content][] = answers-masthead
 features[content][] = question1
 features[content][] = question2
 features[content][] = question3
