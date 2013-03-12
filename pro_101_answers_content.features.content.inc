@@ -25,17 +25,11 @@ function pro_101_answers_content_content_defaults() {
     'body' => array(
       'und' => array(
         0 => array(
-          'value' => '<div id="pre-description">
-	&nbsp;
-</div>
+          'value' => '<div id="pre-description">&nbsp;</div>
 
-<p>
-	This is a list of common questions for your convenience. If you have a question that is not in this list, please ask via our <a href="contact">contact form</a>.
-</p>
+<p>This is a list of common questions for your convenience. If you have a question that is not in this list, please ask via our <a href="contact">contact form</a>.</p>
 
-<div id="post-description">
-	&nbsp;
-</div>
+<div id="post-description">&nbsp;</div>
 ',
           'summary' => '',
           'format' => 'plain_text',
@@ -45,6 +39,7 @@ function pro_101_answers_content_content_defaults() {
   );
 
   $content['question1'] = (object) array(
+    'exported_path' => 'answers/question-1',
     'title' => 'Question 1?',
     'status' => '1',
     'promote' => '0',
@@ -58,9 +53,7 @@ function pro_101_answers_content_content_defaults() {
     'body' => array(
       'und' => array(
         0 => array(
-          'value' => '<p>
-	Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-</p>
+          'value' => '<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 ',
           'summary' => '',
           'format' => 'plain_text',
@@ -70,16 +63,17 @@ function pro_101_answers_content_content_defaults() {
     'field_question_category' => array(
       'und' => array(
         0 => array(
-          'tid' => '7',
+          'tid' => '4',
         ),
         1 => array(
-          'tid' => '9',
+          'tid' => '5',
         ),
       ),
     ),
   );
 
   $content['question2'] = (object) array(
+    'exported_path' => 'answers/question-2',
     'title' => 'Question 2?',
     'status' => '1',
     'promote' => '0',
@@ -93,9 +87,7 @@ function pro_101_answers_content_content_defaults() {
     'body' => array(
       'und' => array(
         0 => array(
-          'value' => '<p>
-	Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-</p>
+          'value' => '<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 ',
           'summary' => '',
           'format' => 'plain_text',
@@ -105,13 +97,17 @@ function pro_101_answers_content_content_defaults() {
     'field_question_category' => array(
       'und' => array(
         0 => array(
-          'tid' => '8',
+          'tid' => '5',
+        ),
+        1 => array(
+          'tid' => '6',
         ),
       ),
     ),
   );
 
   $content['question3'] = (object) array(
+    'exported_path' => 'answers/question-3',
     'title' => 'Question 3?',
     'status' => '1',
     'promote' => '0',
@@ -125,9 +121,7 @@ function pro_101_answers_content_content_defaults() {
     'body' => array(
       'und' => array(
         0 => array(
-          'value' => '<p>
-	Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-</p>
+          'value' => '<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 ',
           'summary' => '',
           'format' => 'plain_text',
@@ -137,7 +131,7 @@ function pro_101_answers_content_content_defaults() {
     'field_question_category' => array(
       'und' => array(
         0 => array(
-          'tid' => '8',
+          'tid' => '4',
         ),
       ),
     ),
