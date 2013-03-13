@@ -42,9 +42,9 @@ function pro_101_answers_content_context_default_contexts() {
           'region' => 'content',
           'weight' => '-9',
         ),
-        'nodeblock-answers-mast' => array(
+        'nodeblock-answers-masthead' => array(
           'module' => 'nodeblock',
-          'delta' => 'answers-mast',
+          'delta' => 'answers-masthead',
           'region' => 'content',
           'weight' => '-10',
         ),
